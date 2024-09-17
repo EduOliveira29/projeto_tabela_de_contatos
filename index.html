@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Tabela</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tabela de Contatos</h1>
+        </header>
+    <form id="formulario">
+        <input id="nome" type="text" required placeholder="Adicione seu nome">
+        <input id="telefone" type="tel" required placeholder="Adicione seu Telefone">
+        <button type="submit">Cadastrar</button>
+    </form>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="nomeAdicionado">---</td>
+                <td id="telefoneAdicionado">---</td>
+            </tr>    
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Teste</th>
+                <th>40028922</th>
+            </tr>
+        </tfoot>
+        </table>
+    </div>
+    <script src="./apps.js"></script>
+</body>
+</html>
